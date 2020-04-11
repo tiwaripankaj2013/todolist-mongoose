@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "to list using ember js templating",
+  "main": "index.js",
+  "scripts": {
+    "test": "ember js"
+  },
+  "author": "pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2"
+  }
+}

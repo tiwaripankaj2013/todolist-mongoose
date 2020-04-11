@@ -1,0 +1,20 @@
+
+<footer>
+    <p class="text-center">&copy; copyright2020 By Pankaj kumar </p>
+</footer>
+<script>
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var today = new Date();
+    var dayhin = today.toLocaleDateString("hi-IN", options);
+    document.querySelector('h2').innerHTML = dayhin;
+
+    const a= 50;
+    function add(){
+      var b =   a + a;
+    return b;
+    }
+    console.log(add());
+</script>
+</body>
+
+</html>
